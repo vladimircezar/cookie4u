@@ -14,7 +14,7 @@ public struct CookieView: View {
     
     public var body: some View {
         VStack {
-            Text("Here is your")
+            Text(title)
                 .font(.largeTitle)
                 .padding(.top, 50)
             
@@ -30,7 +30,7 @@ public struct CookieView: View {
             
             Spacer()
             
-            Text("Enjoy it!")
+            Text(message)
                 .font(.headline)
                 .padding(.bottom, 16)
             
