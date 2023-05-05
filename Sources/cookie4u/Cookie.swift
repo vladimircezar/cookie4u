@@ -27,7 +27,7 @@ enum Cookie: String, CaseIterable {
     }
     
     var image: Image {
-        return Image(self.rawValue)
+        return Image(self.rawValue, bundle: Bundle.module)
     }
 
     static func random() -> Cookie {
